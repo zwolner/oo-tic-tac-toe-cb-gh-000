@@ -42,7 +42,7 @@ class TicTacToe
     !(position_taken?(index)) && (0..9).include?(index)
   end
 
-  def turn(user_input)
+  def turn
     puts "Please enter a move 1-9:"
     token = current_player
     user_input = gets.strip
