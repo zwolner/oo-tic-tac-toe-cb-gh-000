@@ -89,7 +89,7 @@ class TicTacToe
     end
   end
 
-  def play(TicTacToe)
+  def play
     until over? || draw?
       turn
     end
