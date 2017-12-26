@@ -94,7 +94,7 @@ class TicTacToe
       turn
     end
     if won?
-      puts "Congratulations #{winner(board).upcase}!"
+      puts "Congratulations #{winner.upcase}!"
     else draw?
       puts "Cat's Game!"
     end
